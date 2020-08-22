@@ -1,0 +1,43 @@
+baseURL = "https://www.alivychan.me"
+# baseURL = "http://localhost"
+defaultContentLanguage = "en"
+title = "CRUCIBLE"
+theme = "jane"
+hasCJKLanguage = true
+paginate = 3
+enableRobotsTXT = true
+enableEmoji = true
+customCSS = ['custom.css']
+
+[author]
+  name = "alivychan"
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[[menu.main]] 
+  name = "Home"
+  identifier = "home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Archives"
+  identifier = "archives"
+  url = "/post"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 3
+
+[params]
+  description = "PEK白日梦女的闲言碎语"
+  since = "2018"
+  homeFullContent = false
+  rssFullContent = true
+  toc = false
+  dateFormatToUse = "2006-01-02"
