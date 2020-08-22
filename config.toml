@@ -1,10 +1,9 @@
 baseURL = "https://www.alivychan.me"
-# baseURL = "http://localhost"
 defaultContentLanguage = "en"
 title = "CRUCIBLE"
-theme = "jane"
+theme = "zozo"
 hasCJKLanguage = true
-paginate = 3
+paginate = 4
 enableRobotsTXT = true
 enableEmoji = true
 
@@ -34,10 +33,10 @@ enableEmoji = true
   weight = 3
 
 [params]
-  description = "PEK白日梦女的闲言碎语"
+  subTitle = "PEK白日梦女的闲言碎语"
   since = "2018"
   homeFullContent = false
   rssFullContent = true
   toc = false
   dateFormatToUse = "2006-01-02"
-  customCSS = ['custom.css']
+  enableSummary = true
