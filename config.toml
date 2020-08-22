@@ -7,7 +7,6 @@ hasCJKLanguage = true
 paginate = 3
 enableRobotsTXT = true
 enableEmoji = true
-customCSS = ['custom.css']
 
 [author]
   name = "alivychan"
@@ -41,3 +40,4 @@ customCSS = ['custom.css']
   rssFullContent = true
   toc = false
   dateFormatToUse = "2006-01-02"
+  customCSS = ['custom.css']
